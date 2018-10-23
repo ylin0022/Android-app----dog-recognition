@@ -1,0 +1,16 @@
+net: "/Users/pompy/DogJudge/pb/train_val.prototxt"
+test_iter: 90
+test_interval: 800
+test_initialization: false
+display: 20
+average_loss: 40
+base_lr: 0.01
+lr_policy: "step"
+stepsize: 3200
+gamma: 0.5
+max_iter: 100000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 1500
+snapshot_prefix: "/Users/pompy/dog_judge/"
+solver_mode: CPU
