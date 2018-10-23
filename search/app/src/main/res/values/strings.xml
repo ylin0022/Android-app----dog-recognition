@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">view</string>
+    <string name="InputBankAccount">Bank Account</string>
+    <string name="InputCardholder">Name of Card Holder</string>
+    <string name="InputCVV">CVV</string>
+</resources>
