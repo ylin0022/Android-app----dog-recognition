@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Juicy dog</string>
+    <string name="InputCardholder">Name of Card Holder</string>
+    <string name="InputCVV">CVV</string>
+    <string name="Typeappointmentday">Type as: hh/dd/mm/yy</string>
+    <string name="Appointmentrecord">None</string>
+</resources>
