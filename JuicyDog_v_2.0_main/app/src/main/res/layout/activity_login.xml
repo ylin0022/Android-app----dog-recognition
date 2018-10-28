@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context="com.chen.petshop.activity.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="User Login"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/edit_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:lines="1"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:nextFocusForward="@+id/edit_pwd"
+        android:hint="Please enter a Email"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter a Password"
+        android:inputType="textPassword"
+        android:maxEms="1"
+        android:imeOptions="actionDone"
+        android:lines="1"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_none"
+            android:text="Login"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_none2"
+            android:text="Register" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Login Type:" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radio_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="User" />
+
+        <RadioButton
+            android:id="@+id/radio_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PetStore" />
+
+
+        <RadioButton
+            android:id="@+id/radio_vet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vet" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
