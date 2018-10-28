@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="100dp"
+    android:background="@drawable/login_bg"
+    tools:context="com.chen.petshop.activity.UserActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Function List"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_recognize"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_none"
+        android:layout_height="wrap_content"
+        android:text="recognize a dog" />
+
+    <Button
+        android:id="@+id/btn_searchStore"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_none"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="search petstore" />
+
+    <Button
+        android:id="@+id/btn_searchVet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_none"
+        android:text="search vets" />
+
+    <Button
+        android:id="@+id/btn_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_none"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/btn_Appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_none"
+        android:text="Appointment" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="logout"
+        android:background="@drawable/btn_exit"
+        android:textColor="#fff"
+        android:text="Logout" />
+
+
+</LinearLayout>
