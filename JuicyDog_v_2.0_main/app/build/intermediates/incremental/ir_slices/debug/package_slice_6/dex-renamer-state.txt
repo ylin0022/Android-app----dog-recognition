@@ -1,0 +1,4 @@
+#Sat Oct 27 19:21:37 AEDT 2018
+base.0=C\:\\Users\\Charl\\AndroidStudioProjects\\Juicy dog_version2.0\\PetShop\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
